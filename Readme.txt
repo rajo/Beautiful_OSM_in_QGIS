@@ -57,11 +57,11 @@ Your map will now have national parks.
 
 5) Country outlines.
 
-WG84, faster render / smaller scales, download from here: http://data.openstreetmapdata.com/land-polygons-complete-4326.zip
+WG84, faster render / smaller scales, download from here: https://osmdata.openstreetmap.de/download/land-polygons-complete-4326.zip
 
-WG84, Slower render / more detailed / larger scales, download from here: http://data.openstreetmapdata.com/land-polygons-complete-4326.zip
+WG84, Slower render / more detailed / larger scales, download from here: https://osmdata.openstreetmap.de/download/land-polygons-split-4326.zip
 
-Others, eg Mercator, can be downloaded from here. Just select the one you want: http://openstreetmapdata.com/data/land-polygons
+Others, eg Mercator, can be downloaded from here. Just select the one you want: https://osmdata.openstreetmap.de/data/land-polygons.html
 
 Import as shapefile into QGIS and apply land.qml stylesheet.
 
@@ -121,11 +121,11 @@ So far your map only contains ocean. Beautiful but not so useful to a land dwell
 
 Of course, being the open source philanthropist project it is, the problem has been solved for you for free (I donate £2 per year to every project I use. I encourage you to do the same. It costs me about £50 per year but because I make sure it doesn’t all happen at once, I don’t notice it).
 
-Download the shapefile you want from here http://openstreetmapdata.com/data/land-polygons
+Download the shapefile you want from here https://osmdata.openstreetmap.de/data/land-polygons.html
 
-If you are not sure which one you want, use this one: http://data.openstreetmapdata.com/land-polygons-complete-4326.zip
+If you are not sure which one you want, use this one: https://osmdata.openstreetmap.de/download/land-polygons-complete-4326.zip
 
-And if it looks bad, you’re probably zooming in too much so use this: http://data.openstreetmapdata.com/land-polygons-complete-4326.zip
+And if it looks bad, you’re probably zooming in too much so use this: https://osmdata.openstreetmap.de/download/land-polygons-split-4326.zip
 
 Unzip the .shp file into your project folder and delete the zip.
 
@@ -166,7 +166,7 @@ Select “Open”
 
 NATIONAL PARKS
 
-Natoinal parks will be missing from your maps. To apply them, select from the QGIS menu Database→DB Manager→PostGIS→(select db name eg osm)→(select login role)→SQL Window
+National parks will be missing from your maps. To apply them, select from the QGIS menu Database→DB Manager→PostGIS→(select db name eg osm)→(select login role)→SQL Window
 
 And enter:
 
